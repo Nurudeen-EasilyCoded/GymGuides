@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Button, Grid, Typography } from '@mui/material';
 import banner from '../assets/images/banner.png';
+import banner2 from '../assets/images/banner2.png';
 
 const HeroBanner = () => {
   return (
@@ -49,16 +50,16 @@ const HeroBanner = () => {
         </Box>
       </Grid>
       <Grid item xs={12} md={6}>
-        <Box sx={{ marginTop: { md: '-130px' } }}>
+        <Box sx={{ marginTop: { md: '-150px' } }}>
           <img
-            src={banner}
+            src={banner2}
             style={{ height: 'auto', width: '100%', maxWidth: '100%' }}
             // className='hero-banner-img'
           />
         </Box>
       </Grid>
       <Grid item xs={12}>
-        <Box sx={{ marginTop: { md: '-250px' } }}>
+        <Box sx={{ marginTop: { md: '-300px' } }}>
           <Typography
             fontWeight={600}
             color='#D7DF01'
